@@ -14,20 +14,21 @@ available device trees and from the devices' own stock firmware:
 | Xiaomi Pad 8 Pro | `piano` | HyperOS 4 `OS4.0.6.0.XPYCNXM` | booted; display, touch, decryption, Wi-Fi and the landscape/portrait switch verified |
 | OnePlus 12 | `waffle` | ColorOS 17 / Android 17, build `PJD110_17.0.0.100(CN01)` (device currently on `PJD110_17.0.1.202(Milk！)`) | display at 120 Hz, touch, Wi-Fi, data, battery, haptics (including touch taps) and screenshots verified; modem not started |
 
-The user will do the first flashing and hardware testing.
+Both images were flashed and checked on the two devices.
 
-## Images
+## Download
 
-Built images are in [`out/`](out) and their SHA-256 sums in
-[`out/SHA256SUMS`](out/SHA256SUMS):
+The two images are attached to the
+[**v0.3.1-piano-waffle release**](https://github.com/SorasakiHinaHusband/Skyward/releases/tag/v0.3.1-piano-waffle):
 
 | Image | Base | SHA-256 |
 | --- | --- | --- |
 | `skyward-0.3.1-piano-OS4.0.6.0.XPYCNXM.img` | piano stock recovery from HyperOS 4 `OS4.0.6.0.XPYCNXM` | `d29a3da1b0c657464a0eac02e14c247dc7e88ddfbccff0f150b8384b97c35974` |
-| `skyward-0.3.1-waffle-PJD110_17.0.0.100.img` | waffle stock recovery from ColorOS 17 `PJD110_17.0.0.100(CN01)` H.11 | `7e59cb24482f8799b05f41b6141f09c396bc5f10010fc18b6c45774a47c7990d` |
+| `skyward-0.3.1-waffle-PJD110_17.0.0.100.img` | waffle stock recovery from ColorOS 17 `PJD110_17.0.0.100(CN01)` H.11 | `329dbe58f1ba57e79f06941564dea58da9d404018a85a02a44d4d6a1205ac255` |
 
-The stock recovery images used as bases, needed for rollback, are in
-[`stock/`](stock) with their sums in [`stock/SHA256SUMS`](stock/SHA256SUMS).
+They are release assets rather than committed files, because each is about
+100 MiB. The stock recovery images used as bases for rollback are not
+committed either; get them from the matching full OTA (`docs/PORTING.md`).
 
 ### Waffle base
 
