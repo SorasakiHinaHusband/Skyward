@@ -1,3 +1,8 @@
+> **This combined repository is archived.** The two ports now have their
+> own repositories: [Skyward-piano](https://github.com/SorasakiHinaHusband/Skyward-piano)
+> for the Xiaomi Pad 8 Pro and [Skyward-waffle](https://github.com/SorasakiHinaHusband/Skyward-waffle)
+> for the OnePlus 12. Use those for building or reporting issues.
+
 # Skyward for Xiaomi Pad 8 Pro (piano) and OnePlus 12 (waffle)
 
 Two device ports of [kirklin/skyward](https://github.com/kirklin/skyward), a
